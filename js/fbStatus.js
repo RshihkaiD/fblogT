@@ -8,7 +8,12 @@ window.fbAsyncInit = function () {
         xfbml: true,
         version: 'v2.10'
     });
+
     FB.AppEvents.logPageView();
+
+    FB.getLoginStatus(function(response){
+        pulbicCb.fbSuccess(response);
+    });
 };
 
 (function (d, s, id) {
@@ -20,4 +25,5 @@ window.fbAsyncInit = function () {
     js.id = id;
     js.src = "//connect.facebook.net/en_US/sdk.js";
     fjs.parentNode.insertBefore(js, fjs);
+
 }(document, 'script', 'facebook-jssdk'));

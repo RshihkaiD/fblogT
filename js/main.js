@@ -2,6 +2,12 @@
  * Created by litv-frontend on 2017/10/6.
  */
 
+var pulbicCb = {
+    fbSuccess :function (result) {
+        console.log(result);
+        console.log(FB);
+    }
+};
 
 var view = {};
 
@@ -33,10 +39,9 @@ var includeFile = {
 
 (function () {
     includeFile.script('./js/fbStatus.js', function () {
-        console.log(123);
-        FB.getLoginStatus(function (response) {
-            statusChangeCallback(response);
-            console.log(response)
-        });
+        // FB.getLoginStatus(function (response) {
+        //     statusChangeCallback(response);
+        //     console.log(response)
+        // });
     });
 })();
