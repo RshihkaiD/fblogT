@@ -33,11 +33,9 @@ var includeFile = {
 
 (function () {
     includeFile.script('./js/fbStatus.js', function () {
-        if (typeof FB != 'undefined') {
-            FB.getLoginStatus(function (response) {
-                // statusChangeCallback(response);
-                console.log(res)
-            });
-        }
+        FB.getLoginStatus(function (response) {
+            statusChangeCallback(response);
+            console.log(response)
+        });
     });
 })();
