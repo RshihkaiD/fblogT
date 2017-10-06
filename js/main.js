@@ -3,19 +3,44 @@
  */
 
 var pulbicCb = {
-    fbSuccess :function (result) {
-        console.log(result);
-        console.log(FB);
+    fbSuccess: function(result) {
+        var statusKey = result.status;
+        Fbstatus[statusKey](result);
     }
 };
 
 var view = {};
 
-var events = {};
+var events = {
+    btn: {
+        fb: document.querySelector('#fb-login'),
+        kit: document.querySelector('#account-login')
+    },
+    bindFbLogin: function() {
+        this.btn['fb'].addEventListener('click', function(e) {
+            console.log(e);
+            FB.login(function(response) {
+                console.log(response);
+            });
+        });
+    }
+};
+
+var Fbstatus = {
+    connected: function(param) {
+        console.log(param);
+    },
+    not_authorized: function(param) {
+        events.bindFbLogin();
+    },
+    unknown: function(param) {
+        events.bindFbLogin();
+    }
+};
 
 var includeFile = {
     head: document.querySelector('head'),
-    script: function (url, success, error) {
+    script: function(url, success, error) {
         var js = document.createElement("script");
 
         js.type = "text/javascript";
@@ -33,15 +58,12 @@ var includeFile = {
 
         this.head.appendChild(js);
     },
-    style: function () {
-    }
+    style: function() {}
 };
 
-(function () {
-    includeFile.script('./js/fbStatus.js', function () {
-        // FB.getLoginStatus(function (response) {
-        //     statusChangeCallback(response);
-        //     console.log(response)
-        // });
-    });
+(function() {
+    includeFile.script('./js/fbStatus.js', null);
+    if(typeof AccountKit != 'undefined'){
+        console.log(AccountKit);
+    }
 })();
