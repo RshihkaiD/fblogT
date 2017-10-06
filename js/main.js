@@ -33,6 +33,7 @@ var includeFile = {
 
 (function () {
     includeFile.script('./js/fbStatus.js', function () {
+        console.log(123);
         FB.getLoginStatus(function (response) {
             statusChangeCallback(response);
             console.log(response)
