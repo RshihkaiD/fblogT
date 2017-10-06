@@ -1,5 +1,200 @@
-/* line 1, ../sass/main.scss */
-.container {
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+/* line 4, ../sass/_reseat.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 21, ../sass/_reseat.scss */
+body {
+  line-height: 1;
+}
+
+/* line 24, ../sass/_reseat.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 27, ../sass/_reseat.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 30, ../sass/_reseat.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* remember to define focus styles! */
+/* line 37, ../sass/_reseat.scss */
+:focus {
+  outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+/* line 42, ../sass/_reseat.scss */
+ins {
+  text-decoration: none;
+}
+
+/* line 45, ../sass/_reseat.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+/* line 50, ../sass/_reseat.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 3, ../sass/main.scss */
+html, body {
+  position: relative;
   width: 100%;
   height: 100%;
+  meargin: 0 auto;
+  font-size: 16px;
+  font-family: "Microsoft JhengHei", "Heiti TC", "WenQuanYi Zen Hei", "Arial";
+  line-height: 1.5rem;
+  text-align: center;
+}
+/* line 12, ../sass/main.scss */
+html .container, body .container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+/* line 20, ../sass/main.scss */
+html .container .dialog, body .container .dialog {
+  background-color: #FFF;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 100%;
+  max-width: 400px;
+  max-height: 500px;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+/* line 33, ../sass/main.scss */
+html .container .dialog .header, body .container .dialog .header {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+/* line 37, ../sass/main.scss */
+html .container .dialog .header i.close-btn, body .container .dialog .header i.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #F60;
+  padding: 5px 6.5px;
+  color: #FFF;
+  cursor: pointer;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 99em;
+}
+/* line 48, ../sass/main.scss */
+html .container .dialog .header i.close-btn:hover, body .container .dialog .header i.close-btn:hover {
+  background-color: #F90;
+}
+/* line 52, ../sass/main.scss */
+html .container .dialog .header h2, body .container .dialog .header h2 {
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 50px;
+}
+/* line 57, ../sass/main.scss */
+html .container .dialog .header p, body .container .dialog .header p {
+  color: #999;
+}
+/* line 62, ../sass/main.scss */
+html .container .dialog .logo-site .logo-icon, body .container .dialog .logo-site .logo-icon {
+  background: url(https://www.litv.tv/resources/image/logo@2x.png);
+  width: 125px;
+  height: 70px;
+  background-repeat: no-repeat;
+  margin: 15px auto;
+}
+/* line 69, ../sass/main.scss */
+html .container .dialog .logo-site h2, body .container .dialog .logo-site h2 {
+  color: #4c4c4c;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+}
+/* line 75, ../sass/main.scss */
+html .container .dialog .content, body .container .dialog .content {
+  margin: 0 auto 10px auto;
+}
+/* line 77, ../sass/main.scss */
+html .container .dialog .content .login-dialog-title, body .container .dialog .content .login-dialog-title {
+  letter-spacing: 2px;
+  font-size: 0.6rem;
+  color: #4c4c4c;
+  line-height: 2rem;
+}
+/* line 83, ../sass/main.scss */
+html .container .dialog .content .login-dialog, body .container .dialog .content .login-dialog {
+  max-width: 65%;
+  margin: 0 auto;
+}
+/* line 86, ../sass/main.scss */
+html .container .dialog .content .login-dialog .facebook-login-btn, html .container .dialog .content .login-dialog .account-kit-btn, body .container .dialog .content .login-dialog .facebook-login-btn, body .container .dialog .content .login-dialog .account-kit-btn {
+  cursor: pointer;
+  color: #FFF;
+  font-size: 1rem;
+  padding: 8px 40px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+/* line 98, ../sass/main.scss */
+html .container .dialog .content .login-dialog .facebook-login-btn, html .container .dialog .content .login-dialog .account-kit-btn, body .container .dialog .content .login-dialog .facebook-login-btn, body .container .dialog .content .login-dialog .account-kit-btn {
+  background-color: #466ab5;
+}
+/* line 100, ../sass/main.scss */
+html .container .dialog .content .login-dialog .facebook-login-btn:hover, html .container .dialog .content .login-dialog .account-kit-btn:hover, body .container .dialog .content .login-dialog .facebook-login-btn:hover, body .container .dialog .content .login-dialog .account-kit-btn:hover {
+  background-color: #4d78d2;
+}
+/* line 104, ../sass/main.scss */
+html .container .dialog .content .login-dialog .account-kit-btn, body .container .dialog .content .login-dialog .account-kit-btn {
+  margin-top: 10px;
+  background-color: #5e0b75;
+}
+/* line 107, ../sass/main.scss */
+html .container .dialog .content .login-dialog .account-kit-btn:hover, body .container .dialog .content .login-dialog .account-kit-btn:hover {
+  background-color: #8410a5;
+}
+/* line 112, ../sass/main.scss */
+html .container .dialog .content .attentions, body .container .dialog .content .attentions {
+  font-size: 0.475rem;
+  color: #4c4c4c;
+  line-height: 2rem;
+  margin: 10px 0;
 }
