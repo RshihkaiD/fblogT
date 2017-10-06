@@ -1,1 +1,4 @@
 node_modules/
+.sass-cache/
+fb_login/sass/
+fb_login/config.rb
