@@ -6,38 +6,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook_Login_Dialog</title>
+    <script src="./js/vue2/vue.min.js"></script>
     <script src="https://sdk.accountkit.com/en_US/sdk.js"></script>
     <link rel="stylesheet" type="text/css" href="./fb_login/stylesheets/main.css" media="all" />
     <link rel="stylesheet" type="text/css" href="./fb_login/stylesheets/font-awesome.css" media="all" />
 </head>
 
 <body>
-    <div class="container">
-        <div class="dialog">
-            <div class="header">
-                <i class="fa fa-times fa-3 close-btn" aria-hidden="true"></i>
-                <h2 class="header-title">登入</h2>
-                <p class="header-second-title">請先登入，即可購買或觀看付費影片</p>
-            </div>
-            <div class="logo-site">
-                <div class="logo-icon"></div>
-                <h2>LiTV</h2>
-            </div>
-            <div class="content">
-                <h2 class="login-dialog-title">= 會員註冊或登入 =</h2>
-                <div class="login-dialog">
-                    <div id="fb-login" class="facebook-login-btn">
-                        <i class="fa fa-facebook-official fa-1" aria-hidden="true"></i> Facebook 登入
-                    </div>
-                    <div id="account-login" class="account-kit-btn">
-                        <i class="fa fa-phone-square fa-1" aria-hidden="true"></i> 行動電話 登入
-                    </div>
-                </div>
-                <div class="attentions">
-                    <p>註冊即表示同意《LiTV 線上影視》的<a href="">服務條款</a> 以及 <a href="">隱私權政策</a></p>
-                </div>
-            </div>
-        </div>
+    <div id="fb-login-dialog" class="container">
+        <fb-login></fb-login>
     </div>
 </body>
 
