@@ -1,0 +1,335 @@
+{
+  "data": [
+    [
+      {
+        "name": "首頁",
+        "title": "",
+        "category": "home",
+        "is_highligh": false,
+        "href": "/",
+        "target": "_blank",
+        "menu_promote_icon_file_name": "",
+        "mobile_icon_file_name": "/home.png",
+        "show_device": [
+          "pc",
+          "mobile"
+        ],
+        "is_auth": false,
+        "submenu_status": "empty",
+        "submenu": []
+      }
+    ],
+    [
+      {
+        "name": "頻道",
+        "title": "線上電視頻道直播",
+        "category": "channel",
+        "is_highligh": false,
+        "href": "/channel/introduction.do?tab=new_finance",
+        "target": "_blank",
+        "menu_promote_icon_file_name": "",
+        "mobile_icon_file_name": "/channel_mobile_web_icon.png",
+        "show_device": [
+          "pc",
+          "mobile"
+        ],
+        "is_auth": false,
+        "submenu_status": "default",
+        "submenu": [
+          {
+            "name": "頻道首頁",
+            "title": "頻道首頁",
+            "href": "/channel/introduction.do",
+            "target": "_blank"
+          },
+          {
+            "name": "觀看頻道",
+            "title": "觀看頻道",
+            "href": "/channel/all/watch.do",
+            "target": "_blank"
+          },
+          {
+            "name": "運動吧",
+            "title": "運動吧",
+            "href": "/promo/SportBar/",
+            "target": "_blank"
+          },
+          {
+            "name": "頻道列表",
+            "title": "頻道列表",
+            "href": "/channel/list.do",
+            "target": "_blank"
+          },
+          {
+            "name": "節目推薦",
+            "title": "節目推薦",
+            "href": "/events/channel/showcase.do",
+            "target": "_blank"
+          },
+          {
+            "name": "愛爾達歡樂餐",
+            "title": "愛爾達歡樂餐",
+            "href": "/channel/elta/watch.do",
+            "target": "_blank"
+          },
+          {
+            "name": "整套看頻道",
+            "title": "愛爾達歡樂餐",
+            "href": "/channel/vod-channel/watch.do",
+            "target": "_blank"
+          }
+        ]
+      },
+      {
+        "name": "愛爾達餐",
+        "title": "愛爾達頻道直播",
+        "category": "elta",
+        "is_highligh": false,
+        "href": "/channel/elta/watch.do",
+        "target": "_blank",
+        "menu_promote_icon_file_name": "",
+        "mobile_icon_file_name": "/channel_mobile_web_icon.png",
+        "show_device": [
+          "pc",
+          "mobile"
+        ],
+        "is_auth": false,
+        "submenu_status": "empty",
+        "submenu": []
+      }
+    ],
+    [
+      {
+        "name": "電影",
+        "title": "熱門電影線上看",
+        "category": "movie",
+        "is_highligh": false,
+        "href": "/vod/movie/",
+        "target": "_blank",
+        "menu_promote_icon_file_name": "",
+        "mobile_icon_file_name": "/menu_movie.png",
+        "show_device": [
+          "pc",
+          "mobile"
+        ],
+        "is_auth": false,
+        "submenu_status": "full",
+        "submenu": [
+          {
+            "name": "電影首頁",
+            "title": "電影首頁",
+            "href": "/vod/movie",
+            "target": "_blank"
+          },
+          {
+            "name": "進階篩選",
+            "title": "進階篩選",
+            "href": "/vod/movie/advanced_filter.do",
+            "target": "_blank"
+          }
+        ]
+      },
+      {
+        "name": "動漫",
+        "title": "熱門動漫線上看",
+        "category": "comic",
+        "is_highligh": false,
+        "href": "/vod/comic/",
+        "target": "_blank",
+        "menu_promote_icon_file_name": "",
+        "mobile_icon_file_name": "/carton.png",
+        "show_device": [
+          "pc",
+          "mobile"
+        ],
+        "is_auth": false,
+        "submenu_status": "full",
+        "submenu": [
+          {
+            "name": "動漫首頁",
+            "title": "動漫首頁",
+            "href": "/vod/comic",
+            "target": "_blank"
+          },
+          {
+            "name": "進階篩選",
+            "title": "進階篩選",
+            "href": "/vod/comic/advanced_filter.do",
+            "target": "_blank"
+          }
+        ]
+      },
+      {
+        "name": "兒童",
+        "title": "兒童精選線上看",
+        "category": "kids",
+        "is_highligh": false,
+        "href": "https://staging-web.svc.litv.tv/events/kids.do",
+        "target": "_blank",
+        "menu_promote_icon_file_name": "",
+        "mobile_icon_file_name": "/hot_header.png",
+        "show_device": [
+          "pc",
+          "mobile"
+        ],
+        "is_auth": false,
+        "submenu_status": "empty",
+        "submenu": []
+      },
+      {
+        "name": "蒙福人生",
+        "title": "蒙福人生",
+        "category": "blessedlife",
+        "is_highligh": false,
+        "href": "/vod/blessedlife/",
+        "target": "_blank",
+        "menu_promote_icon_file_name": "",
+        "mobile_icon_file_name": "/blessedlife_mobile_web_icon.png",
+        "show_device": [
+          "pc",
+          "mobile"
+        ],
+        "is_auth": false,
+        "submenu_status": "full",
+        "submenu": [
+          {
+            "name": "首頁",
+            "title": "蒙福人生首頁",
+            "href": "/vod/blessedlife",
+            "target": "_blank"
+          }
+        ]
+      },
+      {
+        "name": "免費戲劇",
+        "title": "熱門日韓陸劇線上看",
+        "category": "drama",
+        "is_highligh": false,
+        "href": "/vod/drama/",
+        "target": "_blank",
+        "menu_promote_icon_file_name": "/category_free.png",
+        "mobile_icon_file_name": "/menu_drama.png",
+        "show_device": [
+          "pc",
+          "mobile"
+        ],
+        "is_auth": false,
+        "submenu_status": "full",
+        "submenu": [
+          {
+            "name": "戲劇首頁",
+            "title": "戲劇首頁",
+            "href": "/vod/drama/",
+            "target": "_blank"
+          },
+          {
+            "name": "進階篩選",
+            "title": "進階篩選",
+            "href": "/vod/drama/advanced_filter.do",
+            "target": "_blank"
+          }
+        ]
+      },
+      {
+        "name": "免費綜藝",
+        "title": "精彩綜藝線上看",
+        "category": "show",
+        "is_highligh": false,
+        "href": "/vod/drama/",
+        "target": "_blank",
+        "menu_promote_icon_file_name": "/category_free.png",
+        "mobile_icon_file_name": "/menu_show.png",
+        "show_device": [
+          "pc",
+          "mobile"
+        ],
+        "is_auth": false,
+        "submenu_status": "full",
+        "submenu": [
+          {
+            "name": "綜藝首頁",
+            "title": "綜藝首頁",
+            "href": "/vod/show/",
+            "target": "_blank"
+          },
+          {
+            "name": "進階篩選",
+            "title": "進階篩選",
+            "href": "/vod/show/advanced_filter.do",
+            "target": "_blank"
+          }
+        ]
+      },
+      {
+        "name": "免費電影",
+        "title": "免費線上看",
+        "category": "movie",
+        "is_highligh": false,
+        "href": "/vod/movie/list.do?brc_id=47",
+        "target": "_blank",
+        "menu_promote_icon_file_name": "/category_free.png",
+        "mobile_icon_file_name": "/movie_free.png",
+        "show_device": [
+          "pc",
+          "mobile"
+        ],
+        "is_auth": false,
+        "submenu_status": "empty",
+        "submenu": []
+      }
+    ],
+    [
+      {
+        "name": "單片租借",
+        "title": "單片租借",
+        "category": "movie",
+        "is_highligh": false,
+        "href": "/vod/movie/list.do?brc_id=169&sort=",
+        "target": "_blank",
+        "menu_promote_icon_file_name": "/category_free.png",
+        "mobile_icon_file_name": "/movie_free.png",
+        "show_device": [
+          "pc",
+          "mobile"
+        ],
+        "is_auth": false,
+        "submenu_status": "empty",
+        "submenu": []
+      },
+      {
+        "name": "三生三世",
+        "title": "三生三世十里桃花",
+        "category": "drama",
+        "is_highligh": false,
+        "href": "/vod/drama/content.do?id=VOD00085460",
+        "target": "_blank",
+        "menu_promote_icon_file_name": "/hot_header.png",
+        "mobile_icon_file_name": "/category_free.png",
+        "show_device": [
+          "pc",
+          "mobile"
+        ],
+        "is_auth": false,
+        "submenu_status": "empty",
+        "submenu": []
+      },
+      {
+        "name": "運動吧",
+        "title": "體育專頁",
+        "category": "channel",
+        "is_highligh": false,
+        "href": "/promo/SportBar/",
+        "target": "_blank",
+        "menu_promote_icon_file_name": "/hot_header.png",
+        "mobile_icon_file_name": "/category_hot.png",
+        "show_device": [
+          "pc",
+          "mobile"
+        ],
+        "is_auth": false,
+        "submenu_status": "empty",
+        "submenu": []
+      }
+    ]
+  ]
+}
