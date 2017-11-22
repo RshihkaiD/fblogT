@@ -234,7 +234,7 @@
       "title": "精彩綜藝線上看",
       "category": "show",
       "is_highligh": false,
-      "href": "/vod/drama/",
+      "href": "/vod/show/",
       "target": "_blank",
       "menu_promote_icon_file_name": "/category_free.png",
       "mobile_icon_file_name": "/menu_show.png",
