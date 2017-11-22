@@ -317,7 +317,7 @@
       "title": "體育專頁",
       "category": "channel",
       "is_highligh": false,
-      "href": "/promo/SportBar/",
+      "href": "/resources/SportBar/index.html",
       "target": "_blank",
       "menu_promote_icon_file_name": "/hot_header.png",
       "mobile_icon_file_name": "/category_hot.png",
