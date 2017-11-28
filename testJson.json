@@ -1,7 +1,7 @@
 [
   [
     {
-      "name": "首頁",
+      "name": "\u9996\u9801",
       "title": "",
       "category": "home",
       "is_highligh": false,
@@ -20,8 +20,8 @@
   ],
   [
     {
-      "name": "頻道",
-      "title": "線上電視頻道直播",
+      "name": "\u983b\u9053",
+      "title": "\u7dda\u4e0a\u96fb\u8996\u983b\u9053\u76f4\u64ad",
       "category": "channel",
       "is_highligh": false,
       "href": "/channel/introduction.do?tab=new_finance",
@@ -36,52 +36,52 @@
       "submenu_status": "default",
       "submenu": [
         {
-          "name": "頻道首頁",
-          "title": "頻道首頁",
+          "name": "\u983b\u9053\u9996\u9801",
+          "title": "\u983b\u9053\u9996\u9801",
           "href": "/channel/introduction.do",
           "target": "_blank"
         },
         {
-          "name": "觀看頻道",
-          "title": "觀看頻道",
+          "name": "\u89c0\u770b\u983b\u9053",
+          "title": "\u89c0\u770b\u983b\u9053",
           "href": "/channel/all/watch.do",
           "target": "_blank"
         },
         {
-          "name": "運動吧",
-          "title": "運動吧",
+          "name": "\u904b\u52d5\u5427",
+          "title": "\u904b\u52d5\u5427",
           "href": "/promo/SportBar/",
           "target": "_blank"
         },
         {
-          "name": "頻道列表",
-          "title": "頻道列表",
+          "name": "\u983b\u9053\u5217\u8868",
+          "title": "\u983b\u9053\u5217\u8868",
           "href": "/channel/list.do",
           "target": "_blank"
         },
         {
-          "name": "節目推薦",
-          "title": "節目推薦",
+          "name": "\u7bc0\u76ee\u63a8\u85a6",
+          "title": "\u7bc0\u76ee\u63a8\u85a6",
           "href": "/events/channel/showcase.do",
           "target": "_blank"
         },
         {
-          "name": "愛爾達歡樂餐",
-          "title": "愛爾達歡樂餐",
+          "name": "\u611b\u723e\u9054\u6b61\u6a02\u9910",
+          "title": "\u611b\u723e\u9054\u6b61\u6a02\u9910",
           "href": "/channel/elta/watch.do",
           "target": "_blank"
         },
         {
-          "name": "整套看頻道",
-          "title": "愛爾達歡樂餐",
+          "name": "\u6574\u5957\u770b\u983b\u9053",
+          "title": "\u6574\u5957\u770b\u983b\u9053",
           "href": "/channel/vod-channel/watch.do",
           "target": "_blank"
         }
       ]
     },
     {
-      "name": "愛爾達餐",
-      "title": "愛爾達頻道直播",
+      "name": "\u611b\u723e\u9054\u9910",
+      "title": "\u611b\u723e\u9054\u983b\u9053\u76f4\u64ad",
       "category": "elta",
       "is_highligh": false,
       "href": "/channel/elta/watch.do",
