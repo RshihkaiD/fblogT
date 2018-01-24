@@ -184,7 +184,7 @@
       "href": "/vod/show/",
       "target": "_blank",
       "menu_promote_icon_file_name": "/category_free.png",
-      "mobile_icon_file_name": "/menu_show.png",
+      "mobile_icon_file_name": "/menu_variety.png",
       "show_device": [
         "pc",
         "mobile"
@@ -213,8 +213,8 @@
       "is_highligh": false,
       "href": "/vod/blessedlife/",
       "target": "_blank",
-      "menu_promote_icon_file_name": "",
-      "mobile_icon_file_name": "/blessedlife_mobile_web_icon.png",
+      "menu_promote_icon_file_name": "category_free.png",
+      "mobile_icon_file_name": "/menu_christ.png",
       "show_device": [
         "pc",
         "mobile"
@@ -238,7 +238,7 @@
       "href": "/vod/movie/list.do?brc_id=47",
       "target": "_blank",
       "menu_promote_icon_file_name": "/category_free.png",
-      "mobile_icon_file_name": "/movie_free.png",
+      "mobile_icon_file_name": "/menu_freemovie.png",
       "show_device": [
         "pc",
         "mobile"
@@ -257,7 +257,7 @@
       "href": "/vod/movie/list.do?brc_id=169&sort=",
       "target": "_blank",
       "menu_promote_icon_file_name": "/category_free.png",
-      "mobile_icon_file_name": "/movie_free.png",
+      "mobile_icon_file_name": "/menu_tvod.png",
       "show_device": [
         "pc",
         "mobile"
