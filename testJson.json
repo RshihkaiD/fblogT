@@ -1,14 +1,14 @@
 [
   [
     {
-      "name": "\u9996\u9801",
+      "name": "首頁",
       "title": "",
       "category": "home",
       "is_highligh": false,
       "href": "/",
       "target": "_blank",
       "menu_promote_icon_file_name": "",
-      "mobile_icon_file_name": "/home.png",
+      "mobile_icon_file_name": "/menu_home.png",
       "show_device": [
         "pc",
         "mobile"
@@ -20,14 +20,14 @@
   ],
   [
     {
-      "name": "\u983b\u9053",
-      "title": "\u7dda\u4e0a\u96fb\u8996\u983b\u9053\u76f4\u64ad",
+      "name": "電視頻道",
+      "title": "線上電視頻道直播",
       "category": "channel",
       "is_highligh": false,
       "href": "/channel/introduction.do?tab=new_finance",
       "target": "_blank",
       "menu_promote_icon_file_name": "",
-      "mobile_icon_file_name": "/channel_mobile_web_icon.png",
+      "mobile_icon_file_name": "/menu_channel.png",
       "show_device": [
         "pc",
         "mobile"
@@ -36,77 +36,48 @@
       "submenu_status": "default",
       "submenu": [
         {
-          "name": "\u983b\u9053\u9996\u9801",
-          "title": "\u983b\u9053\u9996\u9801",
+          "name": "頻道首頁",
+          "title": "頻道首頁",
           "href": "/channel/introduction.do",
           "target": "_blank"
         },
         {
-          "name": "\u89c0\u770b\u983b\u9053",
-          "title": "\u89c0\u770b\u983b\u9053",
+          "name": "觀看頻道",
+          "title": "觀看頻道",
           "href": "/channel/all/watch.do",
           "target": "_blank"
         },
         {
-          "name": "\u904b\u52d5\u5427",
-          "title": "\u904b\u52d5\u5427",
-          "href": "/promo/SportBar/",
-          "target": "_blank"
-        },
-        {
-          "name": "\u983b\u9053\u5217\u8868",
-          "title": "\u983b\u9053\u5217\u8868",
+          "name": "頻道列表",
+          "title": "頻道列表",
           "href": "/channel/list.do",
           "target": "_blank"
         },
         {
-          "name": "\u7bc0\u76ee\u63a8\u85a6",
-          "title": "\u7bc0\u76ee\u63a8\u85a6",
+          "name": "節目推薦",
+          "title": "節目推薦",
           "href": "/events/channel/showcase.do",
           "target": "_blank"
         },
         {
-          "name": "\u611b\u723e\u9054\u6b61\u6a02\u9910",
-          "title": "\u611b\u723e\u9054\u6b61\u6a02\u9910",
-          "href": "/channel/elta/watch.do",
-          "target": "_blank"
-        },
-        {
-          "name": "\u6574\u5957\u770b\u983b\u9053",
-          "title": "\u6574\u5957\u770b\u983b\u9053",
+          "name": "整套看頻道",
+          "title": "整套看頻道",
           "href": "/channel/vod-channel/watch.do",
           "target": "_blank"
         }
       ]
-    },
-    {
-      "name": "\u611b\u723e\u9054\u9910",
-      "title": "\u611b\u723e\u9054\u983b\u9053\u76f4\u64ad",
-      "category": "elta",
-      "is_highligh": false,
-      "href": "/channel/elta/watch.do",
-      "target": "_blank",
-      "menu_promote_icon_file_name": "",
-      "mobile_icon_file_name": "/channel_mobile_web_icon.png",
-      "show_device": [
-        "pc",
-        "mobile"
-      ],
-      "is_auth": false,
-      "submenu_status": "empty",
-      "submenu": []
     }
   ],
   [
     {
-      "name": "\u96fb\u5f71",
-      "title": "\u71b1\u9580\u96fb\u5f71\u7dda\u4e0a\u770b",
+      "name": "電影",
+      "title": "熱門電影線上看",
       "category": "movie",
       "is_highligh": false,
       "href": "/vod/movie/",
       "target": "_blank",
       "menu_promote_icon_file_name": "",
-      "mobile_icon_file_name": "/menu_movie.png",
+      "mobile_icon_file_name": "/menu_film.png",
       "show_device": [
         "pc",
         "mobile"
@@ -115,28 +86,28 @@
       "submenu_status": "full",
       "submenu": [
         {
-          "name": "\u96fb\u5f71\u9996\u9801",
-          "title": "\u96fb\u5f71\u9996\u9801",
+          "name": "電影首頁",
+          "title": "電影首頁",
           "href": "/vod/movie/",
           "target": "_blank"
         },
         {
-          "name": "\u9032\u968e\u7be9\u9078",
-          "title": "\u9032\u968e\u7be9\u9078",
+          "name": "進階篩選",
+          "title": "進階篩選",
           "href": "/vod/movie/advanced_filter.do",
           "target": "_blank"
         }
       ]
     },
     {
-      "name": "\u52d5\u6f2b",
-      "title": "\u71b1\u9580\u52d5\u6f2b\u7dda\u4e0a\u770b",
+      "name": "動漫",
+      "title": "熱門動漫線上看",
       "category": "comic",
       "is_highligh": false,
       "href": "/vod/comic/",
       "target": "_blank",
       "menu_promote_icon_file_name": "",
-      "mobile_icon_file_name": "/carton.png",
+      "mobile_icon_file_name": "/menu_manga.png",
       "show_device": [
         "pc",
         "mobile"
@@ -145,28 +116,28 @@
       "submenu_status": "full",
       "submenu": [
         {
-          "name": "\u52d5\u6f2b\u9996\u9801",
-          "title": "\u52d5\u6f2b\u9996\u9801",
+          "name": "動漫首頁",
+          "title": "動漫首頁",
           "href": "/vod/comic/",
           "target": "_blank"
         },
         {
-          "name": "\u9032\u968e\u7be9\u9078",
-          "title": "\u9032\u968e\u7be9\u9078",
+          "name": "進階篩選",
+          "title": "進階篩選",
           "href": "/vod/comic/advanced_filter.do",
           "target": "_blank"
         }
       ]
     },
     {
-      "name": "\u5152\u7ae5",
-      "title": "\u5152\u7ae5\u7cbe\u9078\u7dda\u4e0a\u770b",
+      "name": "兒童",
+      "title": "兒童精選線上看",
       "category": "kids",
       "is_highligh": false,
       "href": "/events/kids.do",
       "target": "_blank",
       "menu_promote_icon_file_name": "",
-      "mobile_icon_file_name": "/hot_header.png",
+      "mobile_icon_file_name": "/menu_kid.png",
       "show_device": [
         "pc",
         "mobile"
@@ -176,32 +147,8 @@
       "submenu": []
     },
     {
-      "name": "\u8499\u798f\u4eba\u751f",
-      "title": "\u8499\u798f\u4eba\u751f",
-      "category": "blessedlife",
-      "is_highligh": false,
-      "href": "/vod/blessedlife/",
-      "target": "_blank",
-      "menu_promote_icon_file_name": "",
-      "mobile_icon_file_name": "/blessedlife_mobile_web_icon.png",
-      "show_device": [
-        "pc",
-        "mobile"
-      ],
-      "is_auth": false,
-      "submenu_status": "full",
-      "submenu": [
-        {
-          "name": "\u9996\u9801",
-          "title": "\u8499\u798f\u4eba\u751f\u9996\u9801",
-          "href": "/vod/blessedlife/",
-          "target": "_blank"
-        }
-      ]
-    },
-    {
-      "name": "\u514d\u8cbb\u6232\u5287",
-      "title": "\u71b1\u9580\u65e5\u97d3\u9678\u5287\u7dda\u4e0a\u770b",
+      "name": "免費戲劇",
+      "title": "熱門日韓陸劇線上看",
       "category": "drama",
       "is_highligh": false,
       "href": "/vod/drama/",
@@ -216,22 +163,22 @@
       "submenu_status": "full",
       "submenu": [
         {
-          "name": "\u6232\u5287\u9996\u9801",
-          "title": "\u6232\u5287\u9996\u9801",
+          "name": "戲劇首頁",
+          "title": "戲劇首頁",
           "href": "/vod/drama/",
           "target": "_blank"
         },
         {
-          "name": "\u9032\u968e\u7be9\u9078",
-          "title": "\u9032\u968e\u7be9\u9078",
+          "name": "進階篩選",
+          "title": "進階篩選",
           "href": "/vod/drama/advanced_filter.do",
           "target": "_blank"
         }
       ]
     },
     {
-      "name": "\u514d\u8cbb\u7d9c\u85dd",
-      "title": "\u7cbe\u5f69\u7d9c\u85dd\u7dda\u4e0a\u770b",
+      "name": "免費綜藝",
+      "title": "精彩綜藝線上看",
       "category": "show",
       "is_highligh": false,
       "href": "/vod/show/",
@@ -246,22 +193,46 @@
       "submenu_status": "full",
       "submenu": [
         {
-          "name": "\u7d9c\u85dd\u9996\u9801",
-          "title": "\u7d9c\u85dd\u9996\u9801",
+          "name": "綜藝首頁",
+          "title": "綜藝首頁",
           "href": "/vod/show/",
           "target": "_blank"
         },
         {
-          "name": "\u9032\u968e\u7be9\u9078",
-          "title": "\u9032\u968e\u7be9\u9078",
+          "name": "進階篩選",
+          "title": "進階篩選",
           "href": "/vod/show/advanced_filter.do",
           "target": "_blank"
         }
       ]
     },
     {
-      "name": "\u514d\u8cbb\u96fb\u5f71",
-      "title": "\u514d\u8cbb\u7dda\u4e0a\u770b",
+      "name": "蒙福人生",
+      "title": "蒙福人生",
+      "category": "blessedlife",
+      "is_highligh": false,
+      "href": "/vod/blessedlife/",
+      "target": "_blank",
+      "menu_promote_icon_file_name": "",
+      "mobile_icon_file_name": "/blessedlife_mobile_web_icon.png",
+      "show_device": [
+        "pc",
+        "mobile"
+      ],
+      "is_auth": false,
+      "submenu_status": "full",
+      "submenu": [
+        {
+          "name": "首頁",
+          "title": "蒙福人生首頁",
+          "href": "/vod/blessedlife/",
+          "target": "_blank"
+        }
+      ]
+    },
+    {
+      "name": "免費電影",
+      "title": "免費線上看",
       "category": "movie",
       "is_highligh": false,
       "href": "/vod/movie/list.do?brc_id=47",
@@ -279,48 +250,14 @@
   ],
   [
     {
-      "name": "\u55ae\u7247\u79df\u501f",
-      "title": "\u55ae\u7247\u79df\u501f",
+      "name": "單片租借",
+      "title": "單片租借",
       "category": "movie",
       "is_highligh": false,
       "href": "/vod/movie/list.do?brc_id=169&sort=",
       "target": "_blank",
       "menu_promote_icon_file_name": "/category_free.png",
       "mobile_icon_file_name": "/movie_free.png",
-      "show_device": [
-        "pc",
-        "mobile"
-      ],
-      "is_auth": false,
-      "submenu_status": "empty",
-      "submenu": []
-    },
-    {
-      "name": "\u9ebb\u9189\u98a8\u66b42",
-      "title": "\u9ebb\u9189\u98a8\u66b42",
-      "category": "drama",
-      "is_highligh": false,
-      "href": "https://staging-web.svc.litv.tv/promo/WAKEUP/?content_id=VOD00098101&content_type=drama",
-      "target": "_blank",
-      "menu_promote_icon_file_name": "/hot_header.png",
-      "mobile_icon_file_name": "/category_free.png",
-      "show_device": [
-        "pc",
-        "mobile"
-      ],
-      "is_auth": false,
-      "submenu_status": "empty",
-      "submenu": []
-    },
-    {
-      "name": "\u91d1\u99ac\u7480\u74a8",
-      "title": "\u91d1\u99ac\u7480\u74a8",
-      "category": "show",
-      "is_highligh": false,
-      "href": "https://staging-web.svc.litv.tv/vod/movie/promote.do?brc_id=37&id=1000121",
-      "target": "_blank",
-      "menu_promote_icon_file_name": "/hot_header.png",
-      "mobile_icon_file_name": "/category_hot.png",
       "show_device": [
         "pc",
         "mobile"
